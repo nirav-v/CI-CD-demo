@@ -10,6 +10,8 @@ export default function CharacterGallery() {
           key={character._id}
           name={character.name}
           birth={character.birth}
+          spouse={character.spouse}
+          imgUrl={character.imgUrl}
         />
       ))}
     </div>

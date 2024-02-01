@@ -1,9 +1,17 @@
 import React from 'react';
 
-export default function Character({ name, birth, death, race, realm, spouse }) {
+export default function Character({
+  name,
+  birth,
+  death,
+  race,
+  realm,
+  spouse,
+  imgUrl,
+}) {
   return (
     <div>
-      <img src="" alt="" />
+      <img src={imgUrl} alt={name + 'image'} />
       <h2>{name}</h2>
       <ul>
         <li>Date of Birth: {birth}</li>
