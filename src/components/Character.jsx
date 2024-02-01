@@ -12,7 +12,7 @@ export default function Character({
   return (
     <div>
       <img src={imgUrl} alt={name + 'image'} />
-      <h2>{name}</h2>
+      <h2>fail{name}</h2>
       <ul>
         <li>Date of Birth: {birth}</li>
         <li>Date of Death: {death} </li>
